@@ -1,7 +1,0 @@
-{
-    "java.help.firstView": "none",
-    "java.help.showReleaseNotes": false,
-    "jupyter.disableJupyterAutoStart": true,
-    "gitlens.showWelcomeOnInstall": false,
-    "gitlens.showWhatsNewAfterUpgrades": false
-}
