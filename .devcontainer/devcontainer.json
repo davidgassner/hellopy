@@ -31,7 +31,10 @@
 		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
 		"python.linting.pylintArgs": ["--disable=C0111"],
 		"java.help.firstView": "none",
-		"java.help.showReleaseNotes": false	
+		"java.help.showReleaseNotes": false,
+    		"jupyter.disableJupyterAutoStart": true,
+    		"gitlens.showWelcomeOnInstall": false,
+    		"gitlens.showWhatsNewAfterUpgrades": false
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
