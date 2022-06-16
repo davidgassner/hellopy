@@ -45,6 +45,6 @@
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	"remoteUser": "root",
-	"initializeCommand" : "echo '' > /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
+	"onCreateCommand" : "echo '' > /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
 	"onCreateCommand" : "echo PS1='\"$ \"' >> ~/.bashrc", // Update first-run text and set terminal prompt to "$ "
 }
