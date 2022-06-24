@@ -39,7 +39,3 @@
 	],
 	"remoteUser": "root",
 	"onCreateCommand": "cat ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt > /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
-		
-	// "remoteUser": "root",
-	// "onCreateCommand": "sudo cp ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
-	
