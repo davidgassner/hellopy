@@ -37,17 +37,9 @@
 		"ms-python.python",
 		"ms-python.vscode-pylance"
 	],
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
-
 	"remoteUser": "root",
 	"onCreateCommand": "cat ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt > /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
 		
 	// "remoteUser": "root",
 	// "onCreateCommand": "sudo cp ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
-	// Update welcome text and set terminal prompt to '$ '}
 	
